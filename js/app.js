@@ -39,7 +39,11 @@ var typed = new Typed('.animat', {
   loop:true,
 });
 
-
+// Light box
+lightbox.option({
+  'resizeDuration': 200,
+  'wrapAround': true
+})
 // Veno Box
 new VenoBox({
   selector: '.my-image-links',
