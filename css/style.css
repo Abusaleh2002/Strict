@@ -75,6 +75,7 @@ h6 {
     position: fixed;
     bottom: 20px;
     left: 20px;
+    z-index: 1;
 }
 .back_to_top i{
     font-size: 20px;
