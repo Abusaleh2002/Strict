@@ -27,17 +27,6 @@ $(function(){
 
 // Jquery........
 
-// Typed js
-var typed = new Typed('.animat', {
-  strings: [
-    '<i>Creative Web Developer .</i>  ',
-    '<i>Creative Software Engneer .</i>  ',
-    '<i>Creative Designer .</i>  ',
-  ],
-  typeSpeed: 50,
-  backSpeed: 50,
-  loop:true,
-});
 
 // Light box
 lightbox.option({
@@ -53,13 +42,6 @@ new VenoBox({
   spinner: 'rotating-plane'
 });
 
-// Counter Up
-$(function(){
-  $('.counter').counterUp({
-    delay: 10,
-    time: 5000
-  });
-})
 
 
 // Wow function for annimation dely
